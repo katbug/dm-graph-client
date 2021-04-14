@@ -1,0 +1,51 @@
+{
+  "name": "dm-graph-client",
+  "version": "1.0.0",
+  "description": "React client for DM Graph APP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katbug/dm-graph-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katbug/dm-graph-client/issues"
+  },
+  "homepage": "https://github.com/katbug/dm-graph-client#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/helpers": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.15",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "chokidar": "^3.5.1",
+    "core-js": "^3.10.1",
+    "fsevents": "^2.3.2",
+    "html-webpack-plugin": "^5.3.1",
+    "regenerator-runtime": "^0.13.7",
+    "resolve-url": "^0.2.1",
+    "source-map-resolve": "^0.6.0",
+    "urix": "^0.1.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.14.5",
+    "graphql": "^14.7.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
